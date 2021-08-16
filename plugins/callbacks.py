@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
+                    InlineKeyboardButton("How to use", url="https://t.me/pencemodesign/20278"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("⭕️ Channel ⭕️", url="https://t.me/pencemodesigns"),
+                    InlineKeyboardButton("⭕️ Group ⭕️", url="https://t.me/pencemodesign")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "⚡️ Youtube ⚡️", url="http://youtube.com/c/pencemodesigns")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
